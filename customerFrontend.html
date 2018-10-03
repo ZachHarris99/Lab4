@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="formChecker.js"></script>
+		<title> Web Store </title>
+	</head>
+	<body>
+		<form action="customerBackend.php" method="post" onsubmit="return check();">
+			Username: <input type="email" name="username" id="user"><br>
+			Password: <input type="text" name="password" id="pass"><br>
+			Rocks are $2 each. Quantity: <input type="number" name="r" id="rocks" min="0"><br>
+			T-Shirts are $10 each. Quantity: <input type="number" name="t" id="shirts" min="0"><br>
+			Paintings are $20 each. Quantity: <input type="number" name="p" id="paintings" min="0"><br>
+			Please select shipping:<br>
+			<input type="radio" name="ship" id="seven" value="a"/><label for="seven">FREE seven day shipping</label><br>
+			<input type="radio" name="ship" id="three" value="b"/><label for="three">$5 three day shipping</label><br>
+			<input type="radio" name="ship" id="overnight" value="c"/><label for="overnight">$50 overnight shipping</label><br>
+			<button type="submit">Submit</button> <input type="reset">
+		</form>
+
+	</body>
+</html>

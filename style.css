@@ -1,0 +1,37 @@
+p
+{
+    background-color: rgb(255, 153, 153);
+	color: rgb(26, 0, 0);
+	font-size: 24pt;
+	text-shadow: 1px 1px;
+	text-align: center;
+	margin: auto;
+	width: 83%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+body
+{
+    background-color: rgb(255, 204, 204);
+	color: rgb(26, 0, 0);
+	font-size: 24pt;
+	text-shadow: 1px 1px;
+	text-align: center;
+	margin: auto;
+	width: 83%;
+}
+
+a
+{
+	background-color: rgb(72, 118, 255);
+	color: rgb(0, 0, 26);
+}
+
+a:hover
+{
+	background-color: rgb(255, 105, 107);
+	color: rgb(26, 0, 0);
+}
